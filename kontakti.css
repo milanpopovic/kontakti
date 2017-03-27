@@ -1,0 +1,31 @@
+#novi-kontakt {
+	background-color: blue;
+	font-size: 120%;
+  font-weight: bold;
+	padding: 8px;
+	color: white
+}
+#dodaj-kontakt {
+  display: none
+}
+
+#sacuvaj-kontakt, #odustani {
+  background-color: gray;
+  padding: 8px;
+  color: white;
+  font-size: 120%
+}
+span.podatak{
+  display: inline-block; 
+  font-weight: bold;
+  color: blue;
+  width: 60px;
+}
+
+img {
+   border-radius: 25px;
+}
+
+body {
+  margin-left: 20%
+}

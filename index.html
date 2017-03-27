@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakti</title>
+  <link rel="stylesheet" href="kontakti.css">
+  <script src="kontakti.js"></script>
+</head>
+<body>
+  <p><span id="novi-kontakt">Novi kontakt</span></p>
+  <form id="dodaj-kontakt">
+    <p><input type="file" onchange="previewFile()"></p>
+		<p><img src="" height="200" alt="Image preview..."></p>
+    <p><span class="podatak">Ime:</span> <input type="text"  name="ime"></p>
+    <p><span class="podatak">Telefon:</span> <input type="text" name="telefon"></p>
+    <p><span id="sacuvaj-kontakt">Sacuvaj</span> <span id="odustani">Odustani</span></p>
+  </form>
+  <div id="imena"></div>
+</body>
+</html>
+
