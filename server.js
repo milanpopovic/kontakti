@@ -60,8 +60,8 @@ function Odgovor(request, response){                // Hendler zahteva
 	
 }
 var server = http.createServer(Odgovor);            // Kreiraj server
-
-server.listen(9999, function(){                     // Startovanje servera
+var port = process.env.PORT || 9999;
+server.listen(port, function(){                     // Startovanje servera
 
   console.log("Čekam zahteve na: http://localhost: ", 9999);
 
